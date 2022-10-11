@@ -1,0 +1,30 @@
+body{
+    background-color: #DBD1ED;
+}
+
+ul{
+    list-style-type: none;
+}
+
+  #limpezadevidros{
+    width: 15%;
+    border: solid 1px black;
+}
+
+#limpezadetoldos{
+    width: 15%;
+    border: solid 1px black;
+}
+
+#jardinagem{
+    width: 15%;
+    border: solid 1px black;
+}
+#limpezaeinsatalcaodepiscina{
+    width: 15%;
+    border: solid 1px black;
+}
+#pintura{
+    width: 15%;
+    border: solid 1px black;  
+}

@@ -1,0 +1,46 @@
+body{
+    background-color: #EDEAB3;
+}
+.box {
+    height: 100px;
+    border: solid 3px black;
+  }
+  ul{
+    list-style-type: none;
+  }
+  ul li{
+    float: left;
+    margin: 0px 20px 0px;
+  }
+  #limpezadevidros{
+    width: 50%;
+    border: solid 1px black;
+  }
+  .topo {
+    grid-area: topo;
+    display: flex;
+    align-items: center;
+  }
+  .menu{
+    grid-area: menu;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    border: solid 1px black;
+  }
+  .centro{
+    grid-area: centro;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+  }
+  .container{
+    display: grid;
+    /*grid-template-columns: 1fr 2fr;*/
+    grid-template-areas: 
+    'topo topo topo'
+    'menu menu menu'
+    'centro centro centro';
+  }
